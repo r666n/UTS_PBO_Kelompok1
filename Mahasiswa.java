@@ -69,7 +69,7 @@ public class Mahasiswa {
             semester++;
         }
     }
-    // getter and setter semua atribut dan mencentang encapsilation field
+    // getter and setter semua atribut dan mencentang encapsulation field
     public String getNim() {
         return nim;
     }
