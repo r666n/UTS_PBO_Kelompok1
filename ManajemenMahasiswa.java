@@ -14,7 +14,7 @@ import org.w3c.dom.css.Counter;
  * Kelas = Informatika B
  * 
  */
-public class ManajemeMahasiswa {
+public class ManajemenMahasiswa {
     public static void main(String[] args) {
         //array of objek yang menampung mahasiswa sebanyak 10
         Mahasiswa[] daftarMhs = new Mahasiswa[10];
