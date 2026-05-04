@@ -59,7 +59,7 @@ public class Mahasiswa {
             tampilData();
         }
     }
-    // method lulus (ipk >= 3.0 dan semester == 8)
+    // method lulus jika ipk >= 3.0
     boolean isLulus() {
         return this.ipk >= 3.0;
     }
