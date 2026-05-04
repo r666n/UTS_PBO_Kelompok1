@@ -151,17 +151,19 @@ public class ManajemenMahasiswa {
                             // memanggil method getSemester
                             if (daftarMhs[j].getSemester() < 8) {
                                 daftarMhs[j].naikSemester();
+                                 System.out.println("\n- Semester semua mahasiswa berhasil dinaikkan\n");
                             }
                          }
                      }
                     break;    
                 case 6:
                     //keluar
-                    System.out.println("Terima kasih telah menggunakan program kami");
+                    System.out.println("\nTerima kasih telah menggunakan program kami\n");
                     break;
                 default:
                     throw new AssertionError();
             }
+            // ulangi program dalam do selama input bukan 6
         } while (pilihan !=6);
     }
 }
