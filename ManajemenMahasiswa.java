@@ -133,7 +133,10 @@ public class ManajemenMahasiswa {
                         for (int y = 0; y < counter; y++) {
                             //memanggil method lulus
                             if (daftarMhs[y].isLulus()) {
+                                System.out.println("");
+                                System.out.println("==Data Mahasiswa yang Lulus==");
                                 daftarMhs[y].tampilData();
+                                System.out.println("");
                                 lapor = true;
                             } 
                         }
