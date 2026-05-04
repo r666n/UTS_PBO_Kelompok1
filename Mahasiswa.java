@@ -61,7 +61,7 @@ public class Mahasiswa {
     }
     // method lulus (ipk >= 3.0 dan semester == 8)
     boolean isLulus() {
-        return this.ipk >= 3.0 && this.semester == 8;
+        return this.ipk >= 3.0
     }
     // method naik semester
     void naikSemester() {
